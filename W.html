@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./styles.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <form class="weatherForm">
+        <div class="weather-form">
+            <input type="text" class="cityInput" placeholder="Enter the city name">
+            <button id="submit" class="submit">Submit</button>
+        </div>
+    </form>
+
+    <div class="card" style="display: none">
+        <h1 class="displayCity"></h1>
+            <div class="weather-info">
+                <p class="weatherDescription"></p><br/>
+                <img class="icon" src="" alt="">
+                <p class="temperature"></p><br/>
+                <div class = "humidity-wind">
+                    <p class="humidity"></p>    <br/>
+                    <p class="wind"></p>
+                </div>
+            </div>
+    </div>
+
+ 
+    <script src="w.js"></script>
+</body>
+</html>

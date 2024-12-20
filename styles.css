@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    background-color:rgb(20, 17, 22);
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.submit{
+    background-color: rgba(142, 101, 147, 0.95);
+    margin-right: calc(0.25rem /* 4px */ * var(--tw-space-x-reverse));
+    margin-left: calc(0.25rem /* 4px */ * calc(1 - var(--tw-space-x-reverse)));
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+
+.submit:hover{
+    background-color: rgb(121, 118, 122);
+}
+.submit:focus{
+    background-color: rgb(97, 75, 104);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+.submit:active{
+    background-color: rgb(93, 84, 96);
+}
+
+.weatherForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    
+}
+
+.card{
+    background-color: rgba(64, 46, 66, 0.95);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 400px ;
+    margin: auto !important;
+    color:white ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.cityInput{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.displayCity{
+    font-size: 40px;
+}
+
+.weatherDescription{
+    font-size: 30px;
+}
+
+
+.icon{
+    width: 100px;
+    height: 100px;
+}   
+
+.temperature{
+  
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+
+
+.humidity-wind{
+    border: 0.0001rem solid #000;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2ch;
+    
+    margin-top: 8px;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
